@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4946fa10-197c-4e0a-9d6b-7b31a110a762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Bruno leite &lt;bruno.v.sl@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VtzZUFBQyD8TL46EepL6fgCSZx" />
@@ -38,6 +42,20 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exercicioExcecoes2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,12 +80,48 @@
       <option name="presentableId" value="Default" />
       <updated>1578087234881</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit com Intelij">
+      <created>1578090884976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578090884976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit com Intelij" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit com Intelij" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="813" y="157" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1578090036872">
+    <state x="813" y="157" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1578269962990">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="813" y="157" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/0.32.1366.736@0.32.1366.736" timestamp="1578090036872" />
+    <state x="813" y="157" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/0.32.1366.736@0.32.1366.736" timestamp="1578269962990" />
+    <state x="321" y="32" width="714" height="734" key="CommitChangelistDialog2" timestamp="1578090884755">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="321" y="32" width="714" height="734" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1578090884755" />
+    <state width="630" height="175" key="GridCell.Tab.0.bottom" timestamp="1578279210480">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="630" height="175" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578279210480" />
+    <state width="630" height="175" key="GridCell.Tab.0.center" timestamp="1578279210479">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="630" height="175" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578279210479" />
+    <state width="630" height="175" key="GridCell.Tab.0.left" timestamp="1578279210479">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="630" height="175" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578279210479" />
+    <state width="630" height="175" key="GridCell.Tab.0.right" timestamp="1578279210480">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="630" height="175" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578279210480" />
+    <state x="366" y="227" key="com.intellij.ide.util.TipDialog" timestamp="1578269488798">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="366" y="227" key="com.intellij.ide.util.TipDialog/0.32.1366.736@0.32.1366.736" timestamp="1578269488798" />
   </component>
 </project>

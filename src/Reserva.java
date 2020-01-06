@@ -3,12 +3,18 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class Reserva {
-    private Integer NumeroSala;
+    private Integer numeroSala;
     private Date checkIn;
     private Date checkOut;
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
     public Reserva() {
+    }
+
+    public Reserva(Integer numeroSala, Date checkIn, Date checkOut) {
+        this.numeroSala = numeroSala;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
     }
 
     public Date getCheckIn() {
@@ -20,11 +26,11 @@ public class Reserva {
     }
 
     public Integer getNumeroSala() {
-        return NumeroSala;
+        return numeroSala;
     }
 
     public void setNumeroSala(Integer numeroSala) {
-        NumeroSala = numeroSala;
+        this.numeroSala = numeroSala;
     }
 
     public long duracao(){
@@ -39,7 +45,12 @@ public class Reserva {
 
     @Override
     public String toString(){
-        return "Sala" + getNumeroSala() + ", check-in " +
-                sdf.format(checkIn) + " check-out " +
+        return "Sala" + getNumeroSala() +
+                ", check-in " + sdf.format(checkIn) +
+                " check-out " + sdf.format(checkOut) +
+                ", "+
+                duracao() +
+                " noites";
+
     }
 }
